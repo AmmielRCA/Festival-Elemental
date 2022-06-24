@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+
+.cabecera {
+    background-image: url(/Imagenes/festival.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* Título */
+.titulo {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 100px;
+    color: #85ff90;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 55px;
+    color: #afffb6;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+
+/* NavBar */
+
+li,
+a,
+button {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20%;
+    list-style: none;
+    background: rgb(1, 8, 3);
+    background: radial-gradient(circle, rgba(1, 8, 3, 0.9051995798319328) 0%, rgba(35, 255, 35, 1) 100%);
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a :hover {
+    color: aqua;
+
+}
+
+button {
+    padding: 9px 25px;
+    background-color: (0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: (0, 136, 169, 0.8);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+/* Body */
+#body {
+    background-color: #afffb6;
+}
+
+
+
+
+/* Imágenes Index */
+
+.flex-container {
+    display: flex;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.img1 {
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 251, 251);
+}
+
+.img2 {
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 251, 251);
+}
+
+.img3 {
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 251, 251);
+}
+
+/* footer */
+
+footer {
+    padding: 3% 5%;
+    background: linear-gradient(70deg, rgb(7, 7, 7), rgba(253, 247, 247, 0.26), rgb(10, 10, 10));
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Próximas fechas */
+
+.TextoPF {
+    text-align: center;
+    margin: 30px;
+    font-size: x-large;
+    color: red;
+    border-radius: auto;
+    background-color: rgb(65, 250, 89);
+}
+
+.plazadellazo {
+    text-align: center;
+}
+
+.plazadelsol {
+    text-align: center;
+}
+
+.TextoPF2 {
+    padding: 30px;
+    font-size: large;
+    text-decoration: underline;
+
+}
+
+.plazaatahualpa {
+    text-align: center;
+}
+
+.TextoPF3 {
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+    text-decoration: underline;
+}
+
+
+/* formulario de contacto  */
+
+
+
+.customer {
+    border: 1px solid rgb(253, 252, 252);
+    text-align: center;
+}
+
+.ingresudatos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 10px;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.field {
+    padding-top: 30px;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+.buton {
+    background-color: rgb(129, 254, 2);
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 4px;
+    box-shadow: rgb(66, 70, 66);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.info-cliente {
+    border: 1px solid rgb(19, 18, 18);
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+    margin: auto;
+}
+
+.mensaje {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
